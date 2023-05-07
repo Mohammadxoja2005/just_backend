@@ -1,68 +1,410 @@
 {
-  "quotes": [
+  "booking": [
+    {
+      "id": 4,
+      "full_name": "Jack Jacob",
+      "phone": "(90)1234545",
+      "status": 0,
+      "prepayment": 20000
+    },
+    {
+      "full_name": "Jack Jacob",
+      "phone": "(90)1234545",
+      "status": 0,
+      "prepayment": 20000,
+      "id": 6
+    }
+  ],
+
+  "home": [
+    {
+      "date_today": "2023-04-24",
+      "new_clients": 0,
+      "in_negotiations": 0,
+      "make_deal": 0,
+      "today": 0,
+      "tomorrow": 0,
+      "week": 0,
+      "full_task": 0,
+      "overdue_tasks": 0,
+      "house_count": 0,
+      "house_flat_status_free": 0,
+      "house_flat_status_booking": 0,
+      "house_flat_status_sold": 0,
+      "installment_count": 0,
+      "price": 0,
+      "month_sales_price": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "month_day": [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+      ],
+      "price_day_array": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0
+      ],
+      "core_chart": ""
+    }
+  ],
+
+  "all_clients": [
+    {
+      "id": 1,
+      "last_name": "Jackson",
+      "first_name": "Jack",
+      "middle_name": "Richardson",
+      "status": 0,
+      "last_active": "15.04.2023"
+    },
     {
       "id": 2,
-      "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-      "author": "Albert Einstein",
-      "genre": "Motivational",
-      "createdAt": "2023-04-16 13:51:59",
-      "updatedAt": "2023-04-16 13:51:38"
+      "last_name": "Michael",
+      "first_name": "Jackson",
+      "middle_name": "Richardson",
+      "status": 0,
+      "last_active": "10.04.2023"
+    }
+  ],
+
+  "deal_clients": [
+    {
+      "id": 1,
+      "title": "First Contact",
+      "class": "red",
+      "list": [
+        {
+          "id": 1,
+          "last_name": "Hicks",
+          "first_name": "Rhoda",
+          "middle_name": "Maya Osborn",
+          "deal_object": "Erin Ruiz",
+          "sum": 450
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Negotiation",
+      "class": "yellow",
+      "list": [
+        {
+          "id": 1,
+          "last_name": "Hicks",
+          "first_name": "Rhoda",
+          "middle_name": "Maya Osborn",
+          "deal_object": "Erin Ruiz",
+          "sum": 450
+        }
+      ]
     },
     {
       "id": 3,
-      "quote": "So many books, so little time.",
-      "author": "Frank Zappa",
-      "genre": "Philosophical",
-      "createdAt": "2023-04-16 13:51:57",
-      "updatedAt": "2023-04-16 13:51:57"
+      "title": "Making a deal",
+      "class": "green",
+      "list": [
+        {
+          "id": 1,
+          "last_name": "Hicks",
+          "first_name": "Rhoda",
+          "middle_name": "Maya Osborn",
+          "deal_object": "Erin Ruiz",
+          "sum": 450
+        }
+      ]
+    }
+  ],
+
+  "residential_complex": [
+    {
+      "id": 1,
+      "name": "JK IKcrm",
+      "corpus": "A",
+      "description": "10 этаж"
     },
+    {
+      "id": 2,
+      "name": "JK IKcrm",
+      "corpus": "B",
+      "description": "10 этаж"
+    }
+  ],
+
+  "residential_complex_lobbies": [
+    {
+      "complex_id": 1,
+      "lobby": [
+        {
+          "id": 1,
+          "floor": [
+            {
+              "id": 1,
+              "flat": [
+                {
+                  "id": 624,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "flat": [
+                {
+                  "id": 626,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "residential_complex_lobby": [
+    {
+      "complex_id": 1,
+      "lobby_id": 1,
+      "floor": [
+        {
+          "id": 1,
+          "flat": [
+            {
+              "id": 624,
+              "color_status": 0,
+              "number_of_flat": 47,
+              "areas": {
+                "attic": 0,
+                "total": "75",
+                "balcony": 0,
+                "housing": "2",
+                "kitchen": "14",
+                "terraca": 0,
+                "basement": 0
+              },
+              "price": null,
+              "contract_number": null,
+              "room_count": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "flat": [
+            {
+              "id": 626,
+              "color_status": 0,
+              "number_of_flat": 47,
+              "areas": {
+                "attic": 0,
+                "total": "75",
+                "balcony": 0,
+                "housing": "2",
+                "kitchen": "14",
+                "terraca": 0,
+                "basement": 0
+              },
+              "price": null,
+              "contract_number": null,
+              "room_count": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "residential_complex_flat": {
+    "complex_id": 1,
+    "lobby_id": 1,
+    "floor_id": 1,
+    "flat_id": 624,
+    "flat": {
+      "id": 624,
+      "color_status": 0,
+      "number_of_flat": 47,
+      "areas": {
+        "attic": 0,
+        "total": "75",
+        "balcony": 0,
+        "housing": "2",
+        "kitchen": "14",
+        "terraca": 0,
+        "basement": 0
+      },
+      "price": null,
+      "contract_number": null,
+      "room_count": 2
+    }
+  },
+
+  "task": [
+    {
+      "id": 1,
+      "title": "Overdue",
+      "list": [
+        {
+          "id": 1,
+          "responsible": "Али Сохта",
+          "client": "Bates Riley",
+          "client_middle_name": "Zorita David",
+          "client_id": 37,
+          "day": "14.04.2023",
+          "time": "00:00:00"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "Tasks for today",
+      "list": [
+        {
+          "id": 1,
+          "responsible": "Али Сохта",
+          "client": "Bates Riley",
+          "client_middle_name": "Zorita David",
+          "client_id": 37,
+          "day": "14.04.2023",
+          "time": "00:00:00"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "Tasks for tomorrow",
+      "list": [
+        {
+          "id": 1,
+          "responsible": "Jack Miller",
+          "client": "Bates Riley",
+          "client_middle_name": "Zorita David",
+          "client_id": 37,
+          "day": "14.04.2023",
+          "time": "00:00:00"
+        }
+      ]
+    },
+
     {
       "id": 4,
-      "quote": "Be yourself; everyone else is already taken.",
-      "author": "Oscar Wilde",
-      "genre": "Life Lessons",
-      "createdAt": "2023-04-16 13:51:19",
-      "updatedAt": "2023-04-16 13:51:59"
+      "title": "Tasks for next week",
+      "list": [
+        {
+          "id": 1,
+          "responsible": "Jack Miller",
+          "client": "Bates Riley",
+          "client_middle_name": "Zorita David",
+          "client_id": 37,
+          "day": "14.04.2023",
+          "time": "00:00:00"
+        }
+      ]
+    }
+  ],
+
+  "user": [
+    {
+      "id": 1,
+      "first_name": "Jacob",
+      "last_name": "Jackson",
+      "middle_name": "Richardson",
+      "email": "superadmin@example.com",
+      "image": "http://127.0.0.1:8000/uploads/user/17/s_a46c44b8c6b5487cf75458067a20172d.png"
     },
     {
-      "id": 5,
-      "quote": "A room without books is like a body without a soul.",
-      "author": "Marcus Tullius Cicero",
-      "genre": "Religious/Spiritual",
-      "createdAt": "2023-04-16 13:51:13",
-      "updatedAt": "2023-04-16 13:51:58"
+      "id": 2,
+      "first_name": "Jack",
+      "last_name": "Jacobson",
+      "middle_name": "Richardson",
+      "email": "superadmin@example.com",
+      "image": "http://127.0.0.1:8000/uploads/user/17/s_a46c44b8c6b5487cf75458067a20172d.png"
+    }
+  ],
+
+  "calendar": [
+    {
+      "2023-04-14": [
+        {
+          "id": 1,
+          "user_id": 75,
+          "user_last_name": "Managerov",
+          "user_first_name": "Manager",
+          "user_middle_name": "Managerovich",
+          "client_last_name": "Clientov",
+          "client_first_name": "Client",
+          "client_middle_name": "Clientovich",
+          "task_date": "2023-04-12 16:20:47",
+          "type": "Встреча",
+          "email": "sokhtaalith@gmail.com"
+        }
+      ]
     },
     {
-      "id": 6,
-      "quote": "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
-      "author": "Bernard M. Baruch",
-      "genre": "Motivational",
-      "createdAt": "2023-04-16 13:51:16",
-      "updatedAt": "2023-04-16 13:51:53"
-    },
+      "2023-04-15": [
+        {
+          "id": 1,
+          "user_id": 75,
+          "user_last_name": "Managerov",
+          "user_first_name": "Manager",
+          "user_middle_name": "Managerovich",
+          "client_last_name": "Clientov",
+          "client_first_name": "Client",
+          "client_middle_name": "Clientovich",
+          "task_date": "2023-04-12 16:20:47",
+          "type": "Встреча",
+          "email": "sokhtaalith@gmail.com"
+        }
+      ]
+    }
+  ],
+
+  "deal_clients_need_when_update": [
     {
-      "id": 6,
-      "quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-      "author": "Dr. Seuss",
-      "genre": "Political",
-      "createdAt": "2023-04-16 13:51:14",
-      "updatedAt": "2023-04-16 13:51:59"
-    },
-    {
-      "id": 7,
-      "quote": "You only live once, but if you do it right, once is enough  .",
-      "author": "Mae West",
-      "genre": "Life Lessons",
-      "createdAt": "2023-04-16 13:51:57",
-      "updatedAt": "2023-04-16 13:51:57"
-    },
-    {
-      "id": 8,
-      "quote": "In three words I can sum up everything I've learned about life: it goes on.",
-      "author": "Robert Frost",
-      "genre": "Motivational",
-      "createdAt": "2023-04-16 13:51:46",
-      "updatedAt": "2023-04-16 13:51:47"
+      "id": 1,
+      "full_name": "Jacob Jackson",
+      "gender": 0,
+      "passport": "000129",
+      "reponsible_person": "",
+      "registration_by_passport": "",
+      "pinfl_inn": "",
+      "deal_object": "Erin Fernandez",
+      "flat_number": 4,
+      "apartment_description": "",
+      "contract_number": "000171",
+      "date": "2023-04-24",
+      "phone": "903580505",
+      "additional_phone": "712297844",
+      "email": "david.jackson@gmail.com",
+      "sum": 375,
+      "installment_plan": 0,
+      "status": 0,
+      "file": ""
     }
   ]
 }
