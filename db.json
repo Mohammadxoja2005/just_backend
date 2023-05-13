@@ -52,20 +52,30 @@
       "last_name": "Jackson",
       "first_name": "Jack",
       "middle_name": "Richardson",
+      "phone": "903580501",
+      "source": "",
       "status": 0,
+      "passport": "AB1375647",
+      "responsible": "",
+      "pinfl_inn": "",
       "last_active": "15.04.2023"
     },
     {
       "id": 2,
-      "last_name": "Michael",
-      "first_name": "Jackson",
+      "last_name": "Jackson",
+      "first_name": "Jack",
       "middle_name": "Richardson",
-      "status": 0,
-      "last_active": "10.04.2023"
+      "phone": "903580501",
+      "source": "",
+      "status": 1,
+      "passport": "AB1375647",
+      "responsible": "",
+      "pinfl_inn": "",
+      "last_active": "15.04.2023"
     }
   ],
 
-  "deal_clients": [
+  "deal_clients_dnd": [
     {
       "id": 1,
       "title": "First Contact",
@@ -110,6 +120,47 @@
           "sum": 450
         }
       ]
+    }
+  ],
+
+  "deal_clients": [
+    {
+      "id": 1,
+      "complex_id": 1,
+      "flat_number": 4,
+      "description": "",
+      "contract_number": "000171",
+      "date": "2023-04-24",
+      "full_name": "Jacob Jackson",
+      "gender": 0,
+      "passport": "000129",
+      "reponsible_person": "",
+      "registration_by_passport": "",
+      "pinfl_inn": "",
+      "phone": "903580505",
+      "file": "",
+      "register_number": "134567f",
+      "sum": 375,
+      "installment_plan": 0
+    },
+    {
+      "id": 2,
+      "complex_id": 2,
+      "flat_number": 6,
+      "description": "",
+      "contract_number": "000171",
+      "date": "2023-04-24",
+      "full_name": "Jacob Jackson",
+      "gender": 0,
+      "passport": "000129",
+      "reponsible_person": "",
+      "registration_by_passport": "",
+      "pinfl_inn": "",
+      "phone": "903580505",
+      "file": "",
+      "register_number": "134567f",
+      "sum": 375,
+      "installment_plan": 0
     }
   ],
 
@@ -381,30 +432,6 @@
           "email": "sokhtaalith@gmail.com"
         }
       ]
-    }
-  ],
-
-  "deal_clients_need_when_update": [
-    {
-      "id": 1,
-      "full_name": "Jacob Jackson",
-      "gender": 0,
-      "passport": "000129",
-      "reponsible_person": "",
-      "registration_by_passport": "",
-      "pinfl_inn": "",
-      "deal_object": "Erin Fernandez",
-      "flat_number": 4,
-      "apartment_description": "",
-      "contract_number": "000171",
-      "date": "2023-04-24",
-      "phone": "903580505",
-      "additional_phone": "712297844",
-      "email": "david.jackson@gmail.com",
-      "sum": 375,
-      "installment_plan": 0,
-      "status": 0,
-      "file": ""
     }
   ]
 }
