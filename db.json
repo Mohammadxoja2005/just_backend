@@ -141,8 +141,8 @@
       "file": "",
       "register_number": "134567f",
       "sum": 375,
-      "installment_plan": 0, 
-      "status": 0
+      "installment_plan": 0,
+      "status": "First contact"
     },
     {
       "id": 2,
@@ -161,8 +161,8 @@
       "file": "",
       "register_number": "134567f",
       "sum": 375,
-      "installment_plan": 0, 
-      "status": 0
+      "installment_plan": 0,
+      "status": "First contact"
     }
   ],
 
