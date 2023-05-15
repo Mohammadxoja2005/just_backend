@@ -233,11 +233,109 @@
               ]
             }
           ]
+        },
+        {
+          "id": 2,
+          "floor": [
+            {
+              "id": 1,
+              "flat": [
+                {
+                  "id": 624,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "flat": [
+                {
+                  "id": 626,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "floor": [
+            {
+              "id": 1,
+              "flat": [
+                {
+                  "id": 624,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "flat": [
+                {
+                  "id": 626,
+                  "color_status": 0,
+                  "number_of_flat": 47,
+                  "areas": {
+                    "attic": 0,
+                    "total": "75",
+                    "balcony": 0,
+                    "housing": "2",
+                    "kitchen": "14",
+                    "terraca": 0,
+                    "basement": 0
+                  },
+                  "price": null,
+                  "contract_number": null,
+                  "room_count": 2
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "complex_id": 1,
+      "complex_id": 2,
       "lobby": [
         {
           "id": 1,
@@ -291,7 +389,7 @@
       ]
     },
     {
-      "complex_id": 1,
+      "complex_id": 3,
       "lobby": [
         {
           "id": 1,
@@ -345,7 +443,7 @@
       ]
     },
     {
-      "complex_id": 1,
+      "complex_id": 4,
       "lobby": [
         {
           "id": 1,
