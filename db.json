@@ -162,7 +162,7 @@
       "register_number": "134567f",
       "sum": 375,
       "installment_plan": 0,
-      "status": "First contact"
+      "status": 0
     }
   ],
 
@@ -171,7 +171,8 @@
       "id": 1,
       "name": "JK IKcrm",
       "corpus": "A",
-      "description": "10 этаж"
+      "description": "10 этаж",
+      "status": 0
     }
   ],
 
