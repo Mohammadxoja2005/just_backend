@@ -179,11 +179,11 @@
   "residential_complex_lobbies": [
     {
       "complex_id": 1,
+      "max_floor": 2,
       "lobby": [
         [
           {
             "id": 1,
-            "max_floor": 2,
             "floor": [
               {
                 "id": 1,
@@ -232,8 +232,7 @@
             ]
           },
           {
-            "id": 2, 
-            "max_floor": 2,
+            "id": 2,
             "floor": [
               {
                 "id": 1,
@@ -282,8 +281,7 @@
             ]
           },
           {
-            "id": 3, 
-            "max_floor": 2,
+            "id": 3,
             "floor": [
               {
                 "id": 1,
