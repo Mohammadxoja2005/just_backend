@@ -33,7 +33,7 @@
       "house_flat_status_sold": 0,
       "installment_count": 0,
       "price": 0,
-      "monthly_sales": [0, 3, 6, 10],
+      "monthly_sales": [3, 6.5, 6.5, 9, 9.5, 10, 2.5, 6.5, 9, 5],
       "individual_manager_sales": [3, 1, 4, 5, 6, 7],
       "sales": [50000, 100000, 150000],
       "core_chart": ""
