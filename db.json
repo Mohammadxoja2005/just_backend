@@ -681,5 +681,49 @@
         }
       ]
     }
-  ]
+  ],
+
+  "installment_plan": [
+    {
+      "id": 1,
+      "client_full_name": "Jack Barbar Jacson",
+      "flat_number": 44,
+      "price": "100.000",
+      "period": 18
+    }
+  ],
+
+  "installment_plan_one": {
+    "id": 1,
+    "client_full_name": "Jack Barbar Jacson",
+    "phone": "+998 90 999 88 77",
+    "flat_number": "243",
+    "email": "jackson@gmail.com",
+    "prepayment": "10000",
+    "passport": "12345678",
+    "initial_fee": "100 000",
+    "contract_start_date": "20.12.2022",
+    "period": 18,
+
+    "statuses": [
+      {
+        "id": 1,
+        "status": 0,
+        "price": "10000",
+        "date": "20.12.2022"
+      },
+      {
+        "id": 1,
+        "status": 1,
+        "price": "10000",
+        "date": "20.12.2022"
+      },
+      {
+        "id": 1,
+        "status": 2,
+        "price": "10000",
+        "date": "20.12.2022"
+      }
+    ]
+  }
 }
