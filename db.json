@@ -704,6 +704,7 @@
     "initial_fee": "100 000",
     "contract_start_date": "20.12.2022",
     "period": 18,
+    "percen": 5,
     "responsible": "Jack Miller",
 
     "statuses": [
