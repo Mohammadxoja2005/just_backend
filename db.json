@@ -558,7 +558,7 @@
               },
               "price": null,
               "contract_number": null,
-              "room_count": 2
+              "room_count": 1
             },
             {
               "id": 624,
@@ -575,7 +575,7 @@
               },
               "price": null,
               "contract_number": null,
-              "room_count": 2
+              "room_count": 3
             }
           ]
         },
